@@ -23,6 +23,16 @@
     position: relative;
     top: .4em;
     height: 1.5em;
-    margin-left: 2rem;
     width: 10em;
+    transition: box-shadow 0.5s, background-color 0.3s;
+}
+
+.delete_button:hover{
+    box-shadow: 1px 1px 2px 2px rgb(185, 5, 5);
+    background-color: rgb(186, 21, 21);
+    border-radius: 10px;
+}
+
+.todo-item{
+    list-style-type: none
 }

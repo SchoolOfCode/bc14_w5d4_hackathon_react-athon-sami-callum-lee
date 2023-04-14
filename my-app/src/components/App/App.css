@@ -26,6 +26,7 @@
   letter-spacing: .2em;
   box-shadow: 1px 1px 1px 1px black;
   padding: 0 10px;
+  color: rgb(233, 220, 220);
 }
 
 .App-link {
