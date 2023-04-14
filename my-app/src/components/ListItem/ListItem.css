@@ -1,4 +1,18 @@
 .list-item{
+    position: relative;
     display: flex;
     justify-content: space-evenly
+    
+}
+.list_button_div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.delete_button{
+    position: relative;
+    top: .4em;
+    height: 1.5em;
+    margin-left: .5px;
 }
