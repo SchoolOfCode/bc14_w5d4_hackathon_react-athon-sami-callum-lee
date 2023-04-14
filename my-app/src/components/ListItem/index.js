@@ -1,11 +1,11 @@
 import React from "react";
 import "./ListItem.css";
 
-function ListItem(props) {
+function ListItem({item, indexDelete}) {
   return (
     <div className="list-item">
-      <li className="todo-item">{props.item}</li>
-      <button className="delete_button" onClick={props.indexDelete}>
+      <li className="todo-item">{item}</li>
+      <button className="delete_button" onClick={indexDelete}>
         Delete
       </button>
     </div>

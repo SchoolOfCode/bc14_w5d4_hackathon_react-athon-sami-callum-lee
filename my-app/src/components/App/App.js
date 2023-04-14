@@ -47,5 +47,4 @@ and then use the .slice() method to remove the item at the index of the item we 
     </div>
   );
 }
-
 export default App;
