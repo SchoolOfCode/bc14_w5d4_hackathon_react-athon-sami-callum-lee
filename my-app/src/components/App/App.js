@@ -7,6 +7,7 @@ import List from "../List";
 function App() {
   const [inputChange, setInputChange] = useState("");
   const [listItems, setListItems] = useState([]);
+  
 
   function handleInputChange(event) {
     setInputChange(event.target.value);
@@ -42,7 +43,7 @@ and then use the .slice() method to remove the item at the index of the item we 
           onChange={handleInputChange}
           addListItem={addListItem}
         />
-        <List items={listItems} indexDelete={deleteListItem} />
+        <List items={listItems} indexDelete={deleteListItem}  />
       </main>
     </div>
   );
