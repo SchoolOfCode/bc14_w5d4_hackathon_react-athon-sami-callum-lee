@@ -5,8 +5,8 @@ import Input from "../Input";
 import List from "../List";
 
 function App() {
-  const [inputChange, setInputChange] = useState("");
-  const [listItems, setListItems] = useState([]);
+  const [inputChange, setInputChange] = useState(""); // inputChange is the state of the input field
+  const [listItems, setListItems] = useState([]); // listItems is the state of the list
   
 
   function handleInputChange(event) {
@@ -19,16 +19,10 @@ function App() {
     }
   }
 
-  /*
-Need to add a delete button, which will delete the individual li item from the list.
-So once clicked, deletes the li.
-we will need to use items.slice() to create a copy of the array, 
-and then use the .slice() method to remove the item at the index of the item we want to delete.
-*/
 
   function deleteListItem(index) {
     const newList = listItems.slice();
-    newList.splice(index, 1);
+    newList.splice(index, 1); // remove the item at index(This is the index in the list component for the li)
     setListItems(newList);
   }
 
