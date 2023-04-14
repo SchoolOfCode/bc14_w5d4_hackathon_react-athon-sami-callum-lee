@@ -19,6 +19,11 @@
     box-shadow: 2px 2px 1px 1px black;
 }
 
+.checked{
+
+    background-image: linear-gradient(to left, #11bd11,#363c43 );
+}
+
 .delete_button{
     position: relative;
     top: .4em;

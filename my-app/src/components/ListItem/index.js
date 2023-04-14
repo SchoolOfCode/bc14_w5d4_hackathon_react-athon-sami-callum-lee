@@ -1,7 +1,9 @@
 import React from "react";
 import "./ListItem.css";
 
-function ListItem({item, index, indexDelete}) {
+function ListItem({item, index, indexDelete,onCheckButton}) {
+
+
   return (
     <div className="list-item">
       <div className = "list_button_div">
@@ -9,6 +11,9 @@ function ListItem({item, index, indexDelete}) {
       <button className="delete_button" onClick={() => indexDelete(index)}> 
         Delete
       </button> 
+      <button className="check_button" onClick={onCheckButton}>
+        Check
+      </button>
       </div>
     </div> //indexDelete is the function that deletes the item from the list
   );
