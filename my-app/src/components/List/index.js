@@ -8,7 +8,7 @@ import ListItem from "../ListItem";     //items array. For each item, it renders
 function List({ items, indexDelete, onCheckButton }) { 
  
   return (
-    <div>
+    <div className="list_item_container">
       {items.map((item, index) => (
         <ListItem
           key={index} 
@@ -23,7 +23,7 @@ function List({ items, indexDelete, onCheckButton }) {
 
 
 
-          
+        
         />                                       
                                         
       ))}
