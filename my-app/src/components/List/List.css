@@ -1,0 +1,11 @@
+.list-item{
+    margin: .5em .3em .5em .3em;
+}
+.list_item_container{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}

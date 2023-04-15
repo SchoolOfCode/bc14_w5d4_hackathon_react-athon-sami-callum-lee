@@ -1,0 +1,16 @@
+.addButton{
+    position: relative;
+    left: 1.1em;
+    transition: box-shadow 0.2s, transform 0.2s;
+    
+}
+input{
+    border-radius: 12px;
+    text-align: center;
+    background-color: rgb(233, 220, 220);
+}
+.addButton:hover{
+    box-shadow: 2px 2px 1px 1px black;
+    transform: translateY(-2px);
+    border: 2px solid silver;
+}
